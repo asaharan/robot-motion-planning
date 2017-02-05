@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Robot Motion Planning</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+		}
+		.configure-space, .obstacle-space{
+			background-color: #ececec;
+		}
+	</style>
+</head>
+<body>
+<div style="margin: 12px auto;display: flex;justify-content: center;flex-direction: column;align-items: center;">
+	<canvas width="360" height="360" class="configure-space" id="configure-space"></canvas>
+	<span>Theta 1 on horizontal axis and theta 2 on vertical axis</span>
+	<div><b>Configuration space</b></div>
+</div>
+<div style="margin: 12px auto;display: flex;justify-content: center;flex-direction: column;align-items: center;">
+	<canvas width="360" height="360" class="obstacle-space" id="obstacle-space"></canvas>
+	<div><b>Obstacle space</b></div>
+</div>
+<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

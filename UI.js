@@ -7,7 +7,7 @@ function UI(intersectionAngles, obstacles, circle){
 	for(var i = 0; i < this.intersectionAngles.length; i++){
 		var p = this.intersectionAngles[i];
 		this.configureSpaceCanvasCtx.fillStyle=p.color;
-		this.configureSpaceCanvasCtx.fillRect(p.t1, p.t2, 1, 1);
+		this.configureSpaceCanvasCtx.fillRect(360 - p.t1,360 - p.t2, 1, 1);
 	}
 	this.drawObstacleSpace();
 }

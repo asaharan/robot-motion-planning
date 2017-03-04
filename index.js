@@ -178,7 +178,7 @@ var P2;
 var P3;
 var line1;
 var line2;
-var t1 = 0, t2 = 0, increment = 1;
+var t1 = 0, t2 = 0, increment = 0.5;
 var intersectionAngles = [];
 function configureSpace(){
 	function cos(degrees){
